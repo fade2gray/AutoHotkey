@@ -16,4 +16,4 @@ When using the 'Script to EXE Converter', select the 'ANSI 32 Bit' base option.
 ```AutoHotkey
 DllCall( "LocalFree", UInt,pSid )
 ```
-Only test on Windows 7 64Bit PC and Windows 7 32Bit VirtualBox VM.
+Only tested on Windows 7 64Bit PC and Windows 7 32Bit VirtualBox VM.
