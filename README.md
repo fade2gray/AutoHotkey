@@ -1,4 +1,4 @@
-# AutoHotkey-HandyTM
+# AutoHotkey-HandyTM [Handy Tray Menu]
 
 ### "Control all running scripts with one master menu"
 
