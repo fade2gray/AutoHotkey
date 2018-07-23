@@ -645,6 +645,8 @@ ProcessGetModuleFileName( nProc, PID=1 ) {
 
 ProcessGetCommandLine( nProc, PID=1 ) {
 	if(A_Is64BitOS){ ; www.autohotkey.com/docs/commands/ComObjGet.htm
+		If (PID = "1")
+			PID := nProc
 		queryEnum := ComObjGet("winmgmts:").ExecQuery("Select * from Win32_Process where ProcessId=" PID)._NewEnum()
 		if queryEnum[process]
 			sCmdLine := process.CommandLine
