@@ -6,7 +6,7 @@
 
 **HandyTM-modified.ahk** - I modified the original to include use with 64Bit OS running AutoHotkey v1.1.29.01
 
-If you wish to run the script without compiling, you will either need to use a base AHK install of ANSI 32 Bit or use a bitstrap script to run HandyTm.ahk, e.g.
+If you wish to run the script without compiling, you will either need to use a base AHK install of ANSI 32 Bit or use a bootstrap script to run HandyTm.ahk, e.g.
 ```AutoHotkey
 Run, AutoHotkeyA32.exe HandyTM.ahk
 ```
