@@ -1,7 +1,7 @@
 /*
     The Handy TNA Menu for AHK - by SKAN // Ver:Pre 1.0  CD: 19-Nov-2008 / LM: 29-Nov-2008
 	[Modified by fade2gray to include use with 64Bit OS 23/07/2018 - AutoHotkey v1.1.29.01]
-	[Requires to be run/compiled as ansi 32]
+	[Requires to be run/compiled as ANSI 32 (A32)]
 
         ooooo ooooo                              oooo            ooooooooooo oooo     oooo
          888   888   ooooooo   oo oooooo    ooooo888 oooo   oooo 88  888  88  8888o   888 
