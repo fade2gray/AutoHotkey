@@ -10,7 +10,7 @@ If you wish to run the script without compiling, you will either need to use a b
 ```AutoHotkey
 Run, AutoHotkeyA32.exe HandyTM.ahk
 ```
-When using the 'Script to EXE Converter', select the 'ANSI 32 Bit' base option.
+...or comple using the 'Script to EXE Converter' and select the 'ANSI 32 Bit' base option.
 
 **Note:** The following line of code had to be commented out for the original and modified scripts to run on either 32Bit or 64Bit OS's running AutoHotkey v1.1.29.01 (ymmv) -
 ```AutoHotkey
