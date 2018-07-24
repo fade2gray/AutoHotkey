@@ -189,7 +189,7 @@ CreateLeftClickMenu() {
        RemE := RemE+1
  }}
     If ( RemE ) {
-    RestoreMenu := "Restore Menu" nbs "`t« " RemE " script" (RemE>1 ? "s" : "" ) " »"
+    RestoreMenu := "Restore Menu" nbs "`t" chr(0x00AB) " " RemE " script" (RemE>1 ? "s" : "" ) " " chr(0x00BB)
     Menu, LeftClickMenu, Add,    %RestoreMenu%, :Restore
     Menu, LeftClickMenu, Add
  }
