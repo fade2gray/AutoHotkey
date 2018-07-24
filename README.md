@@ -12,7 +12,7 @@ Run, AutoHotkeyA32.exe HandyTM.ahk
 ```
 ...or comple using the 'Script to EXE Converter' and select the 'ANSI 32 Bit' base option.
 
-**Note:** The following line of code had to be commented out for the original and modified scripts to run on either 32Bit or 64Bit OS's running AutoHotkey v1.1.29.01 (ymmv) -
+**Note:** The following line of code had to be commented out in the original and modified scripts to prevent AutoHotkey v1.1.29.01 crashing when run on either 32Bit or 64Bit sytems -
 ```AutoHotkey
 DllCall( "LocalFree", UInt,pSid )
 ```
